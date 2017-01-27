@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise 3</title>
+</head>
+<body>
+	<script>
+		var input = "a man, a plan, a canal, panama!";
+
+          
+          var words = input.split(" ");
+//console.log(words);
+var arr = [];
+//console.log(arr);
+for (elt in words){
+temp2 = words[elt].substring(1,0).toUpperCase();
+temp1 = words[elt].substring(1).toLowerCase();
+arr[elt] = temp2+temp1;
+//console.log(arr)
+
+newstring = arr.join(' ');
+words.value = newstring;
+
+
+
+}
+console.log(newstring)
+
+        
+         //function capitalize(input){
+//var splitString = input.split(",");
+    //var words = []
+
+     //for (var i = 0 ; i < splitString.length ; i++){
+     	 //var FirstLetter = splitString[i].charAt(0).toUpperCase();
+     	 //words[i] = FirstLetter + restOfWord;
+     //}
+
+       //return words.join(" ");
+
+       //console.log(FirstLetter);
+
+   //}
+
+
+
+      ///capitalized_words = []
+//for word in words:
+    //title_case_word = word[].upper() + word[1:]
+    //capitalized_words.append(title_case_word);
+//output = ' '.join(capitalized_words) 
+     //console.log(capitalized_words); 
+
+   //}
+		
+
+          //var splitString = input.split('-');
+           //console.log(splitString);
+    //for (var i = 1; i < input.length; i++) {
+       // join input.split[i].charAt(0).toUpperCase() + input[i].slice(1)
+    //}
+//}
+
+
+
+
+
+
+
+		// write a program to console.log input in title case
+		// hint: use `split`, `join`, and `toUpperCase`
+
+	</script>
+</body>
+</html>
